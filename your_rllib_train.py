@@ -12,7 +12,8 @@ config['num_workers'] = 0   # when running on a big machine or multiple machines
 ray.init(local_mode=True)  # in local mode you can debug it
 
 RUN_WITH_TUNE = True
-NUM_ITERATIONS = 500  # 500 results in Tensorboard shown with 500 iterations (about an hour)
+NUM_ITERATIONS = 50  # 500 results in Tensorboard shown with 500 iterations (about an hour)
+#TODO: Iterations hochstellen auf 500, 50 sollte 6 Minuten dauern
 
 # Tune is the system for keeping track of all of the running jobs, originally for
 # hyperparameter tuning
