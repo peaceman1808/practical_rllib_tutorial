@@ -14,4 +14,4 @@ TIMEOUT_REWARD = -1.0
 NUM_DIRECTIONS = 8
 TIMEOUT = 1000
 
-YOUR_ROOT = '/Users/jmugan/ray_results/YourTrainer'
+YOUR_ROOT = '/Users/fried/ray_results'
